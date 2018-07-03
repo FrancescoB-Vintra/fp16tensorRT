@@ -1,7 +1,7 @@
 
 # Goal
-The objective of this project is to have a working example of a TensorRT model written with the C++ TensorRT API, running inference in half precision mode.
-To the best of our knowledge, there is no public example of API-based model inferencing in half precision; while in most cases we managed to run half precision inference when parsing models from other frameworks such as caffe or tensorflow, we fail with model natively written with the API.
+This is a working example of a TensorRT model written with the C++ TensorRT API, running inference in half precision mode.
+Both inference in full and half precision mode can be run.
 
 # Content
 * `demo.cpp` - model definition and inference
@@ -16,7 +16,8 @@ To the best of our knowledge, there is no public example of API-based model infe
 * CUDA 9.0
 
 # Requirements
-A NVIDIA GPU with FP16 support is needed
+A NVIDIA GPU with FP16 support is needed.
+We tested on a Tesla V100.
 
 
 
